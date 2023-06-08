@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  height: auto;
+  
+}
+body{
+
+  padding: auto;
+ 
+}
+
+main {
+  background-image: url('img1.jpg');
+  background-size: 100% auto;
+  background-position: cover;
+  padding-left: 75px;
+  align-items: center;
+  height: 90vh;  
+  display: flex;
+  margin: 0;
+  }
+ 
+
+  .navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: #4CAF50;
+}
+.navbar li a:hover{
+  color: rgb(236, 6, 6);
+}
+  .container {
+    text-align: center;
+    color:#000000;
+  }
+
+  .header-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: top;
+    padding: 0;
+  }
+  
+  .navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: serif typeface ;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+
+  }
+
+
+  .navbar img{
+    width: 30px;
+    cursor: pointer;
+    align-items: end;
+    padding-left: 30px;
+  }
+
+  
+  .header-list li {
+    margin: 0 20px;
+    color:#000000;
+  }
+
+  h1{
+    margin-bottom: 10px;
+  }
+  p{
+    margin-top: 0;
+  }
+  
+  .content{
+    color: #ffffff;
+    width: 600px;
+    height: 250px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 0px;
+    text-align: justify;
+    background-color: rgba(249, 112, 107, 0.5);
+    color: #ffffff;
+    display: inline;
+    font-size: large;
+    
+    
+
+  }
+  
+  .order-btn {
+    background-color: rgba(253, 251, 251,0.5);
+    color: #000000;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 25px;
+  }
+  .order-btn :hover{
+    color: rgb(250, 88, 88);
+  }
+  .orders{
+
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+  }
+ 
+  .image-container{
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    padding-top: 40px;
+    
+  }
+
+  .image-container img{
+    width: 270px;
+    height: 270px;
+    border-radius: 0 50px 0 0px;
+
+  }
+ 
+  .image-content{
+    font-size: medium;
+    padding: 20px 20px 30px;
+    background-color: rgb(252, 253, 253);
+    border-radius: 0 50px 0 50px;
+    
+    
+  }
+  
+  .back{
+    background: linear-gradient( to left ,#ffff00,#e857a2);
+  }
